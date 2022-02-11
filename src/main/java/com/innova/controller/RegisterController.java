@@ -23,7 +23,7 @@ public class RegisterController {
     IRegisterRepository iRegisterRepository;
 
     /////SAVE
-    // http://localhost:8080/computer/create
+    // http://localhost:8080/user/create
     @GetMapping("/user/create")
     @ResponseBody
     public String getCreateUser(){

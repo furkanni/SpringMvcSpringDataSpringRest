@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 
+
 import javax.validation.constraints.*;
 
 //lombok
@@ -14,6 +15,7 @@ import javax.validation.constraints.*;
 @AllArgsConstructor
 @Builder
 @Log4j2
+
 
 // NEMM :  @NotEmpty @Email @Min @Max @Size
 public class RegisterDto {

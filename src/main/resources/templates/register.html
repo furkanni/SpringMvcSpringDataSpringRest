@@ -1,7 +1,7 @@
 <!doctype html>
 <html th:lang="${#locale.language}" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Thymeleaf -2 </title>
+    <title>Register Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -20,7 +20,7 @@ th:object:model key-->
 
 <p th:text="#{form}" class="text-center display-4 text-uppercase"></p>
 
-<form th:method="post" th:action="@{/formurl}" th:object="${key_form}">
+<form th:method="post" th:action="@{/register}" th:object="${key_form}">
     <div class="container">
         <div class="row">
             <div th:text="#{userName}" class="col-md-2">:</div>
@@ -52,7 +52,7 @@ th:object:model key-->
                       <div class="col-md-2"></div>
             <div class="col-md-10 form-group">
                 <input type="reset" class="btn btn-danger" value="Temizle">
-                <input type="submit" class="btn btn-primary" value="Gönder">
+                <input type="submit" class="btn btn-primary" value="Onayla">
             </div>
 
         </div>
